@@ -22,6 +22,12 @@ This is a budget-tracking web application built with React.js and Node.js.
 - User interface allows creating, updating, and deleting transactions
 - Application shows who owes you or who you owe
 
+### Technologies Used
+
+- React.js
+- Node.js
+- MongoDB
+
 ## Prerequisites
 
 Before running the script, make sure you have the following:
@@ -48,3 +54,32 @@ Before running the script, make sure you have the following:
    ```
    This will start both the frontend and backend concurrently.
 5. Access the Money Tracker web app in your browser at http://localhost:3000/login or http://localhost:3000/register
+
+#### Dependencies List
+
+##### Frontend Dependencies List
+
+- @ant-design/icons:
+- @testing-library/jest-dom:
+- @testing-library/react:
+- @testing-library/user-event:
+- antd:
+- axios:
+- moment:
+- react:
+- react-dom:
+- react-redux:
+- react-router-dom:
+- react-scripts:
+- redux:
+- web-vitals:
+
+##### Backend Dependencies List
+
+- colors:
+- cors:
+- dotenv:
+- express:
+- moment:
+- mongoose:
+- morgan:
