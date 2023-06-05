@@ -27,6 +27,7 @@ This is a budget-tracking web application built with React.js and Node.js.
 - React.js
 - Node.js
 - MongoDB
+  The application utilizes MongoDB as the database for storing transaction data. It is important to note that the MongoDB Atlas database used for this application will be disabled after one week. This is to ensure efficient resource utilization and prevent unnecessary costs. If you plan to continue using the application beyond the one-week period, you will need to set up your own MongoDB database or extend the usage of the provided database.
 
 ## Prerequisites
 
@@ -54,6 +55,10 @@ Before running the script, make sure you have the following:
    ```
    This will start both the frontend and backend concurrently.
 5. Access the Money Tracker web app in your browser at http://localhost:3000/login or http://localhost:3000/register
+
+### Troubleshooting related with database
+
+Try using a different DNS server: Sometimes, DNS servers can encounter issues or have outdated records. You can try switching to a different DNS server, such as Google DNS (8.8.8.8) or Cloudflare DNS (1.1.1.1), to see if it resolves the problem.
 
 #### Dependencies List
 
